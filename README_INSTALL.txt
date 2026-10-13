@@ -1,10 +1,7 @@
-SANA AI PWA V1.1
+Sana AI V2.0 Free Jarvis
 
-1. Create a NEW public GitHub repository named sana-ai-mobile. Do not use your maintenance app repository.
-2. Upload all files INSIDE this folder to the ROOT of that repository (index.html, manifest.webmanifest, sw.js, and PNG icons). Do not upload only the ZIP.
-3. Settings > Pages > Build and deployment > Deploy from a branch > main / (root) > Save.
-4. Open https://YOUR-USERNAME.github.io/sana-ai-mobile/ after deployment.
-5. iPhone: open in Safari > Share > Add to Home Screen > Add.
-6. Android: open in Chrome > menu > Install app or Add to Home screen.
+Upload ALL extracted files to the ROOT of your existing GitHub repository shop911/sana-ai-mobile (replace existing files). Do not upload ZIP itself. GitHub Pages redeploys automatically. Open the installed PWA, close/reopen or reload to update. If old UI persists, refresh the website in Safari/Chrome and reopen the app.
 
-This is an offline demo: no OpenAI API, no cloud sync, no background push notifications. Voice depends on browser support. Notes and tasks remain in local browser storage. Avoid storing sensitive data.
+V2 features: tasks, notes, reminders while app is open, simple command replies, speech output and optional browser-dependent speech recognition. No background push notifications, no real AI chat, no guaranteed iOS speech recognition. Existing V1 task and notes data is preserved on same origin/browser storage.
+
+IMPORTANT: Before updating, copy important notes and tasks to another safe place. Do not upload private data or API keys to GitHub.
